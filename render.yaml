@@ -1,9 +1,9 @@
 services:
   # A Docker web service
   - type: web
-    name: anything
+    name: hirudin2
     env: docker
-    repo: https://github.com/anime-republic/render-railway # optional
+    repo: https://github.com/SumneBMC/animerepub-render-wzml # optional
     region: Frankfurt
     plan: free
     envVars:
